@@ -8,13 +8,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import xlim, ylim
 
-blue = 'C0'
-black = 'k'
-red = 'C3'
-green = 'C2'
-purple = 'C4'
-orange = 'C2'
-gray = 'gray'
 
 class Polygon():
     def __init__(self, *vertices, color=blue, fill=None, alpha=0.4):
